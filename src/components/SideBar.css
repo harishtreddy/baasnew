@@ -1,0 +1,230 @@
+.parent{
+    display: flex;
+}
+
+.sidebar{
+    width:400px;
+    height:calc(100vh - 88px);
+    background-color:#fff;
+    transition:width 500ms;
+    transition-duration: 50ms!important;
+}
+.mini_Sidebar{
+    width:40px;    
+    height:auto;
+    background-color:#3c4b64;
+    transition: width 500ms;
+    transition-duration: 50ms!important;
+}
+@media only screen and (max-width:500px){
+    .sidebar , .mini_Sidebar{
+        display:none;
+    }
+}
+@media only screen and (max-width:800px){
+    .mob{
+        display:none!important
+    }
+}
+.mobile_SidebarOpen{
+    display: block;
+    z-index: 1;
+    position: absolute;
+    width: 160px;
+    height: 100vh;
+    background-color: #3c4b64;
+    transition: width 500ms;
+}
+.mobile_SidebarClose{
+    display:none
+}
+@media only screen and (min-width:500px){
+    .mobcard{
+width:100%;  
+
+  margin: 2rem;
+
+    }
+}
+@media only screen and (min-width:500px){
+    .mobile_SidebarOpen{
+        display:none;
+    }
+}
+.custom {
+border :none!important;
+color:   rgb(8, 55, 93);
+font-family: sans-serif;
+font-weight: 500;
+}
+
+
+
+.leftcustom{
+border-bottom:1px solid #0000003d!important
+}
+.custom:focus{
+    border :none!important;
+    outline:none!important
+    }
+    .custom:hover{
+        background-color:rgba(238, 242, 245, 0.973)!important;
+        color: #048bb4bd!important;
+    }
+    .btn-secondary{
+        background-color: transparent!important;
+    }
+    .dropdown-toggle{
+        background-color: transparent!important;
+    }
+    @media only screen and (min-width:900px){
+        .desktopcard{
+           
+            height: 168px;
+        }
+    }
+    .designcenter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:100%
+    }
+    .forheight{
+        padding-top:30px;
+        min-height: calc(100vh - 112px)
+    }
+    .parent{
+        position: relative;
+        height: 100vh;
+
+    }
+    .child{
+        position: absolute;
+        left: 50%;
+        top:50%;
+        transform: translate(-50% , -50%);
+    }
+    .forCenterParent{
+        position: relative;
+       
+    }
+    .forCenterChild{
+        position: relative;
+        /* left: 50%;
+        transform: translateX(-50%); */
+    }
+    @media only screen and (min-width:500px){
+        .mobcardList{
+    width:100%
+        }
+    }
+    .cardparent{
+        position: relative;
+        height:100%
+    }
+    .cardchild{
+        position: absolute;
+        left: 50%;
+        top:50%;
+        transform: translate(-50% , -50%);
+    }
+    .custombutton{
+        background-color: transparent!important;
+        color:#fff!important;
+        border-radius: 7px!important;
+        padding: 9px!important;
+        border: 1px solid!important;
+    }
+    .twowheeler{
+        background-color: lightgrey;
+       
+ 
+    }
+    .twowheeler:hover{
+        background-color: #f2f2f2;
+    }
+    .textbox{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    
+    }
+    .forhover:hover{
+background-color:#f2f2f2!important;
+padding: 0.75rem;
+    }
+    .w-100{
+        overflow:hidden
+    }
+    .leftclass{
+        flex:0 0 30%;
+        max-width: 30%;
+        font-size: 1rem;
+    
+    }
+    .rightclass{
+        flex:0 0 70%;
+        max-width: 70%;
+        cursor: pointer;
+        margin-top: 0rem;
+    margin-left: 0px;
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    font-weight: 500;
+       
+    }
+
+ 
+      /* .modal-dialog{
+        position:absolute!important;
+        right:0!important;
+    margin: 0!important;
+    height: 100vh;
+    width: 22%;
+        }
+        .modal-content{
+            height:100vh!important;
+            align-items: center;
+            } */
+
+            
+    tr{
+		border-bottom:1px solid #dee2e6!important
+	}
+	.lasttr{
+		border-bottom:none!important
+	}
+	@media only screen and (min-width:600px){
+		.mobileclass{
+			margin-left:2rem;
+			margin-right:2rem;
+			margin-top:2rem
+		}
+	}
+   .navbar{
+	   padding:1.5rem 1rem!important
+   }
+   @media only screen and (max-width:600px){
+   .modal-dialog{
+	   width:100%!important
+   }
+   }
+   .table td, .table th{
+       padding: 0!important;
+   }
+   .table thead th {
+    vertical-align: middle!important;
+   }
+   .toCenter{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   .icon {
+       flex:0 0 25%;
+       max-width: 25%;
+   }
+   .para {
+    flex:0 0 75%;
+    max-width: 75%;
+}
